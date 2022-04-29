@@ -74,8 +74,8 @@ function App() {
 		<div className="App">
 			<div className="header">
 				<h1 className="title">memory game</h1>
+				<p>Don't guess the same berry twice! There are 64 in total.</p>
 			</div>
-			<div>Score: {correctCount}</div>
 
 			<CardContainer
 				gameInProgress={gameInProgress}
@@ -83,6 +83,7 @@ function App() {
 				handleCardClick={handleCardClick}
 				initializeGame={initializeGame}
 			/>
+			<div className="score">{correctCount}</div>
 		</div>
 	)
 }

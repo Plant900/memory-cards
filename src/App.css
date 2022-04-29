@@ -1,3 +1,7 @@
+html {
+	background-color: antiquewhite;
+}
+
 .App {
 	text-align: center;
 }
@@ -20,6 +24,36 @@
 	border-width: 1px;
 	border-radius: 5px;
 	border-color: lightgray;
+
+	background-color: rgb(184, 212, 187);
+
+	height: 85px;
+	width: 85px;
+
+	padding: 5px;
+}
+
+.score {
+	padding-top: 30px;
+
+	font-size: 100px;
+}
+
+.restartBox {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.restartBtn {
+	cursor: pointer;
+	background-color: antiquewhite;
+
+	border-style: solid;
+	border-radius: 10px;
+	border-color: darkgray;
+
+	font-size: 15px;
 
 	padding: 5px;
 }
