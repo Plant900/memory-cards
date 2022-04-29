@@ -6,8 +6,11 @@ function CardContainer(props) {
 
 	if (!gameInProgress) {
 		return (
-			<div>
-				<button onClick={initializeGame}>Restart</button>
+			<div className="restartBox">
+				<img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/10014.png?raw=true" />
+				<button className="restartBtn" onClick={initializeGame}>
+					Restart
+				</button>
 			</div>
 		)
 	} else {
